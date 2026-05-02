@@ -4,7 +4,7 @@
 #include <chrono>
 #include <string>
 
-/*Raw CPU time data parsed directly from /proc/stat. */
+/*Raw CPU time data format parsed directly from /proc/stat*/
 struct CpuRawData {
     long long user      = 0;
     long long nice      = 0;

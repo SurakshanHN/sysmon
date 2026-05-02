@@ -15,7 +15,7 @@ Status: OK
 PROCESSES (20 shown of 312 total) [Sorted by: CPU%]
 PID       NAME                 CPU%      MEM(MB)
 -------   ------------------   -------   -------
-18934     antigravity          5.23      558.2
+18934     edge                 5.23      558.2
 1536      chrome               3.65      628.1
 882       Hyprland             0.62      124.1
 

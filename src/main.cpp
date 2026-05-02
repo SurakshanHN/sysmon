@@ -119,6 +119,8 @@ int main() {
             ++cycle;
         }
     } catch (const std::exception& e) {
+        endwin();
+        std::cerr << "Fatal error: " << e.what() << std::endl;
         return 1;
     }
 
